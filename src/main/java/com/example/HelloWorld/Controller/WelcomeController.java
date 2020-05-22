@@ -8,17 +8,18 @@ import org.springframework.web.bind.annotation.*;
 
 @Controller
 @SessionAttributes("name")
-public class LoginController {
+public class WelcomeController {
 
-    @Autowired
-    LoginService service;
+   /* @Autowired
+    LoginService service;*/
 
-    @RequestMapping(value = "/login",method = RequestMethod.GET)
-    public String displayLogin(ModelMap model) {
-        return "login";
+    @RequestMapping(value = "/",method = RequestMethod.GET)
+    public String displayWelcomePage(ModelMap model) {
+        model.put("name", "alok");
+        return "welcome";
     }
 
-    @RequestMapping(value = "/login", method = RequestMethod.POST)
+   /* @RequestMapping(value = "/login", method = RequestMethod.POST)
     public String handleLogin(ModelMap model, @RequestParam String name,
                               @RequestParam String password) {
 
@@ -30,6 +31,6 @@ public class LoginController {
         model.put("name", name);
         model.put("password", password);
         return "welcome";
-    }
+    }*/
 
 }

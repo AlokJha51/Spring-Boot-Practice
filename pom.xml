@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>HelloWorld</artifactId>
+	<artifactId>Spring-Boot-Practice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>HelloWorld</name>
+	<name>Spring-Boot-Practice</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -23,6 +23,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>

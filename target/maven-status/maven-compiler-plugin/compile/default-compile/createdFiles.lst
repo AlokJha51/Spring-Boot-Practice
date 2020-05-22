@@ -1,6 +1,7 @@
 com/example/HelloWorld/Services/TodoService.class
 com/example/HelloWorld/HelloWorldApplication.class
+com/example/HelloWorld/Security/SecurityConfiguration.class
 com/example/HelloWorld/Controller/TodoController.class
-com/example/HelloWorld/Controller/LoginController.class
 com/example/HelloWorld/Model/Todo.class
 com/example/HelloWorld/Services/LoginService.class
+com/example/HelloWorld/Controller/WelcomeController.class
